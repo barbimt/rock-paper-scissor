@@ -131,7 +131,7 @@ function draw() {
 
 
 function clearModal(e) {
-    if (e.target == modal) {
+    if (e.target == modal || e.target == modalContent) {
         modal.style.display = "none"
         modalContent.style.backgroundColor = "#989ee0";
     }
