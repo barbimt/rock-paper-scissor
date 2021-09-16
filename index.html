@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissors</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Rock - Paper - Scissors</h1>
+    </header>
+    <div class="score-board">
+        <table class="table">
+            <th id="user-badge" class="badge">User</th>
+            <th id="pc-badge" class="badge">Computer</th>
+
+
+        </table class="table">
+        <div class="span">
+            <span id="user-score">0</span>:<span id="pc-score">0</span>
+
+
+        </div>
+        <section class="choices">
+            <div id="paper" class="choice">
+                <img src="images/paper.png" alt="paper">
+            </div>
+            <div id="rock" class="choice">
+                <img src="images/rock.png" alt="rock">
+            </div>
+            <div id="scissors" class="choice">
+                <img src="images/scissors.png" alt="scissors">
+            </div>
+
+        </section>
+
+
+        <div class="modal">
+            <div id="result" class="modal-content"></div>
+        </div>
+
+
+        <script src="script/logica.js">
+        </script>
+</body>
+
+</html>
